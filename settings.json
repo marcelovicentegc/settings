@@ -1,0 +1,26 @@
+{
+  "workbench.colorTheme": "Darcula Theme from IntelliJ",
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "editor.rulers": [],
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderLineHighlight": "gutter",
+  "liveshare.authenticationProvider": "GitHub"
+}
