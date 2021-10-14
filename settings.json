@@ -1,26 +1,40 @@
 {
-  "workbench.colorTheme": "Darcula Theme from IntelliJ",
-  "workbench.iconTheme": "material-icon-theme",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.preferredDarkColorTheme" : "GitHub Dark Default",
+  "window.autoDetectColorScheme" : true,
+  "editor.tabSize" : 2,
+  "explorer.confirmDragAndDrop" : false,
+  "liveshare.authenticationProvider" : "GitHub",
+  "editor.renderLineHighlight" : "gutter",
+  "workbench.editorAssociations" : {
+    "*.ipynb" : "jupyter-notebook"
   },
-  "[go]": {
-    "editor.insertSpaces": false,
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    },
-    "editor.defaultFormatter": "golang.go"
-  },
+  "workbench.preferredLightColorTheme" : "GitHub Dark Dimmed",
+  "workbench.colorTheme" : "GitHub Dark Dimmed",
+  "workbench.iconTheme" : "material-icon-theme",
+  "editor.rulers" : [
 
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.tabSize": 2,
-  "editor.rulers": [],
-  "editor.parameterHints.enabled": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.renderLineHighlight": "gutter",
-  "liveshare.authenticationProvider": "GitHub"
+  ],
+  "[typescript]" : {
+    "editor.defaultFormatter" : "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection" : "first",
+  "editor.accessibilitySupport" : "off",
+  "editor.parameterHints.enabled" : false,
+  "explorer.confirmDelete" : false,
+  "workbench.startupEditor" : "newUntitledFile",
+  "[go]" : {
+    "editor.codeActionsOnSave" : {
+      "source.organizeImports" : true
+    },
+    "editor.defaultFormatter" : "golang.go",
+    "editor.formatOnSave" : true,
+    "editor.insertSpaces" : false
+  },
+  "vsintellicode.modify.editor.suggestSelection" : "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave" : true,
+  "notebook.cellToolbarLocation" : {
+    "default" : "right",
+    "jupyter-notebook" : "left"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
