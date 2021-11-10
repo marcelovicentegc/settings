@@ -1,3 +1,7 @@
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+
 # The git prompt's git commands are read-only and should not interfere with
 # other processes. This environment variable is equivalent to running with `git
 # --no-optional-locks`, but falls back gracefully for older versions of git.
@@ -298,4 +302,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # Putting it all together
 PROMPT=%*" @ "%2~" > " 
-RPROMPT=$git_prompt_info
+RPROMPT=$(git_prompt_info)
