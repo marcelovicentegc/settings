@@ -280,11 +280,6 @@ function git_repo_name() {
   fi
 }
 
-# Highlighted username
-function username() {
-   echo "%n%"
-}
-
 # Current directory, two levels deep
 function directory() {
    echo "%2~"
@@ -302,5 +297,5 @@ ZSH_THEME_GIT_PROMPT_DIRTY="*"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 # Putting it all together
-PROMPT='$(username) @ $(directory)%b > '
-RPROMPT='$(git_prompt_info)'
+PROMPT=%*" @ "%2~" > " 
+RPROMPT=$git_prompt_info
