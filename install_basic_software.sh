@@ -6,7 +6,10 @@ sudo apt install -y \
     vim \
     indicator-multiload \
     gnome-clocks \
-    gnome-tweaks
+    gnome-tweaks \
+    flatpak
+
+echo "Don't forget to install nvm: https://github.com/nvm-sh/nvm"
 
 # indicator-multiload: add CPU and RAM usage indicator to the top bar with 'CPU $(percent(cpu.inuse)) | Mem $(size(mem.user))'
 # gnome-clocks: install panel-world-clock-lite extension once the installation is complete: https://extensions.gnome.org/extension/946/panel-world-clock-lite/
