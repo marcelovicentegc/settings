@@ -7,7 +7,9 @@ sudo apt install -y \
     indicator-multiload \
     gnome-clocks \
     gnome-tweaks \
-    flatpak
+    flatpak \
+    cowsay \ 
+    fortune-mod
 
 echo "Don't forget to install nvm: https://github.com/nvm-sh/nvm"
 
